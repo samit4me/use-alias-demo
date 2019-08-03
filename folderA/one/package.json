@@ -1,0 +1,20 @@
+{
+  "name": "use-alias-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-module-resolver": "^0.13.0"
+  }
+}
