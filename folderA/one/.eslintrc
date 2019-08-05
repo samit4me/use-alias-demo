@@ -13,7 +13,8 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": [
-    "react"
+    "react",
+    "module-resolver"
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -26,6 +27,7 @@
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
+    "module-resolver/use-alias": 2,
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error"
   }
